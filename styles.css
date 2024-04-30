@@ -1,0 +1,81 @@
+/* Estilos para o corpo da página */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte utilizada */
+  margin: 0; /* Remove as margens */
+  padding: 0; /* Remove o preenchimento */
+}
+
+/* Estilos para o container principal */
+.container {
+  max-width: 1200px; /* Largura máxima do container */
+  margin: 0 auto; /* Centraliza o container na página */
+  padding: 20px; /* Adiciona espaçamento interno */
+}
+
+/* Estilos para o cabeçalho */
+.header {
+  background-color: #333; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  padding: 20px; /* Adiciona espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Estilos para o menu de navegação */
+.menu {
+  background-color: #f4f4f4; /* Cor de fundo */
+  padding: 10px; /* Adiciona espaçamento interno */
+  text-align: center; /* Centraliza os links */
+}
+
+
+.logo {
+  width: 350px;
+}
+
+/* Estilos para os links do menu */
+.menu a {
+  color: #333; /* Cor do texto */
+  text-decoration: none; /* Remove a decoração do link */
+  padding: 10px; /* Adiciona espaçamento interno */
+}
+
+
+.redesocial a img {
+	margin: 1px;
+  width: 30px;
+
+}
+
+.redesocial {
+display: flex;
+justify-content: center;
+gap: 300px;
+}
+
+
+
+/* Estilos para o conteúdo principal */
+.content {
+  padding: 20px; /* Adiciona espaçamento interno */
+}
+
+/* Estilos para o rodapé */
+.footer {
+  background-color: #333; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  padding: 20px; /* Adiciona espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Media query para telas menores que 768px */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: block; /* Altera a exibição do menu para bloco */
+  }
+  .menu a {
+    display: block; /* Altera a exibição dos links do menu para bloco */
+  }
+}
+
+
+
